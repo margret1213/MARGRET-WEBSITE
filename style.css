@@ -1,0 +1,189 @@
+* Basic Styles */
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color:red;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:pink;
+    color: white;
+    padding: 70px;
+}
+h2{text-align:center;}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 170px;
+    height: 160;
+}
+
+.nav-right ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+}
+
+.nav-right ul li {
+    margin-left: 20px;
+}
+
+.nav-right ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-right ul li a:hover {
+    color: #94d2bd;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+.section-box {
+    background-color: #e0fbfc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Education Timeline */
+#education .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.timeline-item {
+    background-color: #83c5be;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.timeline-item h3 {
+    margin: 5px;
+    font-size: 1em;
+    color: #fff;
+}
+.education-container {
+	background-color:purple;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: space-between; 
+    margin-top: 20px;
+    padding: 20px; 
+}
+
+.school-box {
+    background-color: #83c5be;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Work Experience */
+
+.experience-item {
+    margin-bottom: 15px;
+	background-color:amber;
+	text-align:center;
+}
+
+.hobbies-container {
+    display: flex;
+    flex-wrap: 
+    gap: 20px; 
+    justify-content: 
+    margin-top: 20px;
+	background-color:teal;
+}
+
+.hobby-box {
+    background-color: 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Comment Form */
+.comment-section {
+    background-color: #cae9ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #005f73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #94d2bd;
+}
+
+/* Contact Section */
+.contact-section a {
+    color: #005f73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    color: #83c5be;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #005f73;
+    color: white;
+    font-size: 0.9em;
+}
